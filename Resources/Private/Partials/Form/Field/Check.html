@@ -14,7 +14,8 @@
 							id="powermail_field_{field.marker}_{index.cycle}"
 							additionalAttributes="{vh:validation.validationDataAttribute(field:field, iteration:index)}"
 							class="powermail_checkbox powermail_checkbox_{field.uid}" />
-					<vh:string.escapeLabels>{setting.label}</vh:string.escapeLabels>
+					<span class="box"></span>
+					<f:format.html>{setting.label}</f:format.html>
 				</label>
 			</div>
 		</f:for>

@@ -561,6 +561,7 @@ $fieldsTca = [
                 Field::TABLE_NAME . '.settings',
             'config' => [
                 'type' => 'text',
+                'enableRichtext' => true,
                 'cols' => '32',
                 'rows' => '5',
                 'default' => ''

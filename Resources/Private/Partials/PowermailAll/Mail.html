@@ -17,7 +17,7 @@
 			<f:then>
 				<f:for each="{answer.value}" as="subValue" iteration="index">
 					<f:if condition="{subValue}">
-						<vh:misc.manipulateValueWithTypoScript answer="{answer}" type="{type}">{subValue}</vh:misc.manipulateValueWithTypoScript><f:if condition="{index.isLast}"><f:else>, </f:else></f:if>
+						<f:format.html>{subValue}</f:format.html>
 					</f:if>
 				</f:for>
 			</f:then>
